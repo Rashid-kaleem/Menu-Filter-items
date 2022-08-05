@@ -5,7 +5,130 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background:  hsl(210, 36%, 96%);
+  color: hsl(209, 61%, 16%);
+  line-height: 1.5;
+  font-size: 0.875rem;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
 }
+
+.menu{
+  padding: 5rem 0;
+
+}
+
+.menu-section{
+  align-items: center;
+  justify-content: center;
+}
+
+.title{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.underline{
+  width: 5rem;
+  height: 0.25rem;
+  background: #c59d5f;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-container{
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+}
+
+.section-center{
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170;
+  display: grid;
+  gap: 3rem 2rem;
+  justify-content: center;
+  
+  grid-template-columns: 550px 550px;
+
+}
+
+.menu-item{
+  display: grid;
+  gap: 0px ;
+  grid-template-columns: 250px 250px;
+  max-width: 25rem;
+}
+
+.photo{
+  object-fit: cover;
+  height: 150px;
+  width: 200px;
+  border: 3px solid #c59d5f;
+  border-radius: 8px;
+  display: block;
+}
+
+.item-info header{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.5px dotted ;
+  
+}
+
+h1,h2,h3,h4{
+  letter-spacing: 0.1rem;
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+
+p{
+  margin-bottom: 1.25rem;
+  color:hsl(210, 22%, 49%) ;
+}
+
+.item-info h4{
+  margin-bottom: 0.5rem;
+}
+
+.price{
+  color: #c59d5f
+
+}
+
+.item-text{
+  margin-bottom: 0;
+  padding-top: 1rem;
+}
+
+.btn-container{
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+
+}
+
+.filter-btn{
+  background: transparent;
+  border-color: #c59d5f;
+  font-size: 1rem;
+  text-transform: capitalize;
+  margin: 0 0.5rem;
+  letter-spacing: 1px;
+  padding: 0.375rem 0.75rem;
+  color: #c59d5f;
+  cursor: pointer;
+transition: all 0.3s linear;
+  border-radius: 8px;
+}
+
+.filter-btn:hover{
+  background: #c59d5f;
+  color: white;
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
